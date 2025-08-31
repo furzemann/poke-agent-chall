@@ -1,0 +1,46 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs & debug
+*.log
+logs/
+debug.log
+
+# Training artifacts
+runs/             # if using tensorboard
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Datasets / battle replays
+data/
+*.jsonl
+*.replay.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Node stuff (if you cloned / host Showdown itself)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
